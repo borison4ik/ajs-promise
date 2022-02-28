@@ -18,6 +18,7 @@
     "no-nested-ternary": "off",
     "keyword-spacing": "off",
     "object-curly-newline": "off",
-    "operator-linebreak": "off"
+    "operator-linebreak": "off",
+    "max-len":"off"
   }
 }
