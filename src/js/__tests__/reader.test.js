@@ -9,6 +9,6 @@ describe('read', () => {
     bufferView[i] = data.charCodeAt(i);
   }
   test('should return a buffer', async () => {
-    await expect(read()).resolves.toEqual(buffer);
+    await expect(read()).resolves.toEqual(bufferView);
   });
 });
